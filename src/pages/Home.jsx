@@ -61,7 +61,7 @@ const Home = () => {
                     <hemisphereLight skyColor="#b1e1ff" groundColor="#000000" intensity={1}/>
 
                     <Birds />
-                    <Sky />
+                    <Sky isRotating={isRotating}/>
                     <Island 
                         position={islandPosition}
                         scale={islandScale}
