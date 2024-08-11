@@ -4,7 +4,7 @@ import { useFrame, useThree } from '@react-three/fiber'
 import IslandScene from '../assets/3d/island.glb'
 import { a } from '@react-spring/three'
 
-const Island = ({ isRotating, setIsRotating, ...props }) => {
+const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
 
   const islandRef = useRef();
 
