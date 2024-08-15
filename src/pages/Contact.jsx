@@ -1,6 +1,7 @@
 import { Canvas } from '@react-three/fiber';
 import React, { Suspense, useState } from 'react';
 import { FaXTwitter, FaLinkedin, FaGithub } from "react-icons/fa6";
+import gmail from '../assets/images/gmail.jpg'
 import Fox from '../models/Fox';
 import Loader from '../components/Loader';
 
@@ -64,7 +65,7 @@ const Contact = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="https://mayank-kl2e.onrender.com/static/media/gmail.d14559ec712a163c139b.jpg"
+              src={gmail}
               className='h-[50px] w-16'
             />
           </a>
