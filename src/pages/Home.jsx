@@ -1,10 +1,10 @@
-import React, { Suspense, useState } from 'react'
+import { Suspense, useState } from 'react'
 import { Canvas } from '@react-three/fiber'
 import Loader from '../components/Loader'
 import Island from '../models/Island'
 import { Sky } from '@react-three/drei'
-import Birds from '../models/birds'
-import Planes from '../models/planes'
+import Birds from '../models/Birds'
+import Planes from '../models/Planes'
 import HomeInfo from '../components/HomeInfo'
 
 const Home = () => {
